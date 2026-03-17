@@ -1,4 +1,5 @@
 import { auth, signOut } from "@/auth"
+import Link from "next/link"
 import { redirect } from "next/navigation"
 
 export default async function Home() {
@@ -106,9 +107,9 @@ export default async function Home() {
               style={{ borderColor: "#C8D8A8", backgroundColor: "#F2EDD7" }}
             >
               <div className="text-2xl mb-2">👤</div>
-              <h3 className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
+              <Link href={"/auth/profile"} className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
                 プロフィール
-              </h3>
+              </Link>
               <p className="text-xs" style={{ color: "#A0714F" }}>
                 自己紹介と学習言語を設定しよう
               </p>
@@ -119,3 +120,6 @@ export default async function Home() {
     </div>
   )
 }
+
+// TODO: プロフィールページを作成して内容を考える
+// TODO: ログイン後のページ（このページ）の構成を考える
