@@ -53,7 +53,6 @@
 // export default Profile
 
 import { CommentCard } from "@/features/profile/components/CommentCard"
-import { DetailCard } from "@/features/profile/components/DetailCard"
 import { Badge } from "@/components/elements/Badge"
 import Image from "next/image"
 
@@ -71,7 +70,7 @@ const Profile = () => {
         />
         <div className="text-center">
           <h1 className="text-2xl font-semibold">ハナコ</h1>
-          <p className="text-sm text-gray-500">@a3K9mX2p1gdsDbe3</p>
+          <p className="text-espresso/70 text-sm">@a3K9mX2p1gdsDbe3</p>
         </div>
 
         {/** 言語バッジ */}

@@ -22,10 +22,10 @@ export default async function Home() {
       >
         <div className="flex items-center gap-3">
           <div
-            className="inline-flex items-center justify-center w-9 h-9 rounded-full"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full"
             style={{ backgroundColor: "#A0714F" }}
           >
-            <span className="text-white text-lg font-bold">L</span>
+            <span className="text-lg font-bold text-white">L</span>
           </div>
           <span className="text-lg font-bold" style={{ color: "#3D2B1F" }}>
             Language Exchange
@@ -39,7 +39,7 @@ export default async function Home() {
           <form action={handleSignOut}>
             <button
               type="submit"
-              className="px-4 py-1.5 rounded-lg text-sm font-medium transition-opacity hover:opacity-80"
+              className="rounded-lg px-4 py-1.5 text-sm font-medium transition-opacity hover:opacity-80"
               style={{ backgroundColor: "#C8D8A8", color: "#3D2B1F" }}
             >
               ログアウト
@@ -49,25 +49,25 @@ export default async function Home() {
       </header>
 
       {/* メインコンテンツ */}
-      <main className="max-w-3xl mx-auto px-6 py-12">
+      <main className="mx-auto max-w-3xl px-6 py-12">
         <div
-          className="rounded-2xl shadow-sm p-8"
+          className="rounded-2xl p-8 shadow-sm"
           style={{ backgroundColor: "#FFFDF7" }}
         >
-          <h2 className="text-2xl font-bold mb-2" style={{ color: "#3D2B1F" }}>
+          <h2 className="mb-2 text-2xl font-bold" style={{ color: "#3D2B1F" }}>
             ようこそ！
           </h2>
-          <p className="text-sm mb-8" style={{ color: "#A0714F" }}>
+          <p className="mb-8 text-sm" style={{ color: "#A0714F" }}>
             カフェや公園で、気軽に言語交換しよう
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div
-              className="rounded-xl p-6 border"
+              className="rounded-xl border p-6"
               style={{ borderColor: "#C8D8A8", backgroundColor: "#F2EDD7" }}
             >
-              <div className="text-2xl mb-2">🔍</div>
-              <h3 className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
+              <div className="mb-2 text-2xl">🔍</div>
+              <h3 className="mb-1 font-semibold" style={{ color: "#3D2B1F" }}>
                 パートナーを探す
               </h3>
               <p className="text-xs" style={{ color: "#A0714F" }}>
@@ -76,11 +76,11 @@ export default async function Home() {
             </div>
 
             <div
-              className="rounded-xl p-6 border"
+              className="rounded-xl border p-6"
               style={{ borderColor: "#C8D8A8", backgroundColor: "#F2EDD7" }}
             >
-              <div className="text-2xl mb-2">📅</div>
-              <h3 className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
+              <div className="mb-2 text-2xl">📅</div>
+              <h3 className="mb-1 font-semibold" style={{ color: "#3D2B1F" }}>
                 セッションを予約
               </h3>
               <p className="text-xs" style={{ color: "#A0714F" }}>
@@ -89,11 +89,11 @@ export default async function Home() {
             </div>
 
             <div
-              className="rounded-xl p-6 border"
+              className="rounded-xl border p-6"
               style={{ borderColor: "#C8D8A8", backgroundColor: "#F2EDD7" }}
             >
-              <div className="text-2xl mb-2">💬</div>
-              <h3 className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
+              <div className="mb-2 text-2xl">💬</div>
+              <h3 className="mb-1 font-semibold" style={{ color: "#3D2B1F" }}>
                 メッセージ
               </h3>
               <p className="text-xs" style={{ color: "#A0714F" }}>
@@ -102,11 +102,11 @@ export default async function Home() {
             </div>
 
             <div
-              className="rounded-xl p-6 border"
+              className="rounded-xl border p-6"
               style={{ borderColor: "#C8D8A8", backgroundColor: "#F2EDD7" }}
             >
-              <div className="text-2xl mb-2">👤</div>
-              <h3 className="font-semibold mb-1" style={{ color: "#3D2B1F" }}>
+              <div className="mb-2 text-2xl">👤</div>
+              <h3 className="mb-1 font-semibold" style={{ color: "#3D2B1F" }}>
                 プロフィール
               </h3>
               <p className="text-xs" style={{ color: "#A0714F" }}>
